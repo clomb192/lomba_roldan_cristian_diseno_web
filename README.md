@@ -4,6 +4,7 @@
 
 - [WEB TIENDA](#web-tienda)
   - [Propósito del repositorio](#propósito-del-repositorio)
+    -[Develop](#develop)
 
 # WEB TIENDA
 
@@ -25,3 +26,7 @@ Deberéis trabajar con una rama `develop`, donde estará disponible la versión 
 A medida que vayamos avanzando en las entregas, deberéis completar este README.
 
 El nombramiento de las ramas debe ser el indicado en la tarea correspondiente en Classroom, siendo nula la entrega si no es correcto. El repositorio debe mantenerse durante todo el curso (no se permite entregar algunas tareas, eliminarlo y crear uno nuevo para la siguiente tarea).
+
+### Develop
+
+He creado la rama develop donde subiré las actividades finalizadas.
