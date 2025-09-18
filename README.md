@@ -4,7 +4,7 @@
 
 - [WEB TIENDA](#web-tienda)
   - [Propósito del repositorio](#propósito-del-repositorio)
-    -[Develop](#develop)
+    - [Develop](#develop)
 
 # WEB TIENDA
 
