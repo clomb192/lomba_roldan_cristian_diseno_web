@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.saludo{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.boton-logo{
+    display: flex;
+    flex-direction: column;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+}
+
+input{
+    height: 40px;
+    width: 230px;
+}

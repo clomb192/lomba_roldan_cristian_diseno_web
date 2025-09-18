@@ -9,32 +9,33 @@
 </head>
 
 <body>
-    <div class="pagina_inicio">
-        <section class="login">
-            <div class="logo">
-                <img src="resources/img/logo_marca.png" alt="logo_marca" />
-            </div>
-            <div class="texto">
-                <h1>Welcome Back</h1>
-            </div>
-            <div class="formulario">
-                <form action="/submit-login" method="POST">
-                    <div class="campo">
-                        <input type="text" id="username" name="username" placeholder="User" required>
-                    </div>
-                    <div class="campo">
-                        <input type="password" id="password" name="password" placeholder="Password" required>
-                    </div>
-                    <button type="submit" class="boton-acceso">Log In</button>
-                    <button type="submit" class="boton-acceso"><img src="resources/img/google.png"
-                            alt="logo_google">Login With Google</button>
-                </form>
-            </div>
-        </section>
-        <section class="foto">
+    <section class="login">
+        <div class="superior">
+            <img src="resources/img/logo_marca.png" alt="logo_marca" />
+            <h1 class="saludo">Welcome Back</h1>
+        </div>
+        <div class="formulario">
+            <form action="/submit-login" method="POST">
+                <div class="campo">
 
-        </section>
-    </div>
+                    <input type="text" id="username" name="username" placeholder="User" required>
+
+
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+
+                </div>
+                <div class="boton-logo">
+                    <div> <button type="submit" class="boton-acceso">Log In</button> </div>
+                    <div> <button type="submit" class="boton-acceso"><img src="resources/img/google.png"
+                                alt="logo_google">Login
+                            With Google</button> </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="foto">
+
+    </section>
 </body>
 
 </html>
