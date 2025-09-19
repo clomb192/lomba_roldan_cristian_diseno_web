@@ -3,7 +3,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-body{
+.todo_index{
     display: flex;
     height: 100vh;
     width: 100%;
@@ -68,6 +68,42 @@ button{
 .foto_inicio{
     height: 100vh;
     width: 100%;
-
 }
+
+.seleccion{
+   display: flex;
+   height: 100vh;
+}
+
+.seleccion div {
+  flex: 1; 
+  position: relative;
+}
+
+.seleccion img {
+  width: 100%;
+  height: 100%;
+}
+
+.mujer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hombre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seleccion p {
+  position: absolute;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+
+
 
