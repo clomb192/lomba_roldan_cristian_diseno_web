@@ -23,10 +23,10 @@ body{
     font-size: 35px;
 }
 
-form{
+.formulario{
     display: flex;
     flex-direction: column;
-    gap: 40px;;
+    gap: 40px;
 }
 .campo{
     display: flex;
@@ -58,11 +58,16 @@ button{
     display: flex;
     gap: 50px;
 }
+
 .foto{
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-.foto_grande{
+
+.foto_inicio{
     height: 100vh;
+    width: 100%;
+
 }
+
