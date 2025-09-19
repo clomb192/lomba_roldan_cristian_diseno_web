@@ -75,7 +75,7 @@ button{
    height: 100vh;
 }
 
-.seleccion div {
+.seleccion a {
   flex: 1; 
   position: relative;
 }
@@ -97,12 +97,15 @@ button{
     justify-content: center;
 }
 .seleccion p {
+  left: 50%;
   position: absolute;
-  writing-mode: vertical-lr;
+  transform: translateX(-50%) rotate(180deg);
+  writing-mode: vertical-rl;
   text-orientation: mixed;
   font-size: 80px;
   font-weight: bold;
   color: white;
+  
 }
 
 
