@@ -15,7 +15,7 @@
                 <img src="resources/img/logo_marca.png" alt="logo_marca" />
                 <h1 class="saludo">Welcome Back</h1>
             </div>
-            <form class="formulario" action="/submit-login" method="POST">
+            <form class="formulario" action="/paginas/select.html" method="POST">
                 <div class="campo">
 
                     <input type="text" id="username" name="username" placeholder="User" required>
@@ -23,10 +23,16 @@
 
                 </div>
                 <div class="boton-logo">
-                    <div> <button type="submit" class="boton-acceso">Log In</button> </div>
-                    <div class="boton-duo"> <button type="submit" class="boton-google"><img class="google"
-                                src="resources/img/google.png" alt="logo_google">Login
-                            With Google</button> </div>
+                    <div>
+                        <button type="button" class="boton-acceso" onclick="location.href='/paginas/select.html'">Log
+                            In</button>
+                    </div>
+                    <div class="boton-duo">
+                        <button type="button" class="boton-google" onclick="location.href='/paginas/select.html'">
+                            <img class="google" src="resources/img/google.png" alt="logo_google">Login
+                            With Google
+                        </button>
+                    </div>
                 </div>
             </form>
         </section>
