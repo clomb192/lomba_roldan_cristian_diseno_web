@@ -89,7 +89,7 @@ button{
     width: 100%;
 }
 
-/* SELECCION */
+
 .seleccion{
    display: flex;
    height: 100vh;
@@ -128,7 +128,7 @@ button{
 
 .rebajas {
   height:800px;
-  background-image: url("/resources/img/page_woman.png");
+  background-image: url("resources/img/page_woman.png");
   background-position: top center;
   background-size: 100% auto;
   color: #F5F5F5;
@@ -195,6 +195,8 @@ button{
 .texto-rebajas p {
   font-size: 40px;
   padding-bottom: 30px;
+  font-style: italic;
+  
 }
 
 .texto-rebajas h2 {
@@ -252,7 +254,7 @@ button{
 
 .rebajas-hombre {
   height:800px;
-  background-image: url("/resources/img/page_man.png");
+  background-image: url("resources/img/page_man.png");
   background-position: top center;
   background-size: 100% auto;
   color: white;
