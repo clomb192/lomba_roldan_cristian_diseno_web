@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rebajas-hombre {
+  height:800px;
+  background-image: url("../../resources/img/page_man.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navegador {
+  width: 95%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  font-size: 20px;
+  
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-links :hover{
+  text-decoration: underline;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user img{
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+
+.texto-rebajas {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.texto-rebajas h1 {
+  font-size: 100px;
+}
+
+
+
+.texto-rebajas p {
+  font-size: 40px;
+  padding-bottom: 30px;
+  font-style: italic;
+  
+}
+
+.texto-rebajas h2 {
+  font-size: 50px;
+}
+
+.buscador-hombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icono {
+    height: 100px;
+}
+
+
+.productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  padding: 30px;
+}
+
+.producto {
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+}
+
+.producto p {
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.precio {
+  font-weight: bold;
+}
