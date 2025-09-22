@@ -29,4 +29,12 @@ El nombramiento de las ramas debe ser el indicado en la tarea correspondiente en
 
 ### Develop
 
-He creado la rama develop donde subiré las actividades finalizadas.
+- He creado la rama develop donde subiré las actividades finalizadas.  
+
+- En la página select, para poner el texto en vertical utilicé:  
+  css
+  transform: rotate(270deg);
+
+    En la página select probé a usar imágenes como etiquetas <img> en lugar de fondos, para experimentar distintas formas de implementarlas.
+
+    En las páginas hombre y mujer, en cambio, las imágenes se han usado como background.

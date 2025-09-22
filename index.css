@@ -43,8 +43,8 @@
     width: 230px;
     border-radius: 5px;
     background-color: #F5F5F5;
-    color: gray;
-    border :1px solid;
+    color: #CDCACA;
+    border :solid 1px;
 }
 
 .espacio{
@@ -64,7 +64,7 @@ button{
     height: 40px;
     width: 230px;
     border-radius: 5px;
-    border :1px solid;
+    border :1px solid #CDCACA;
 }
 .boton-acceso{
     background-color: #39810d;
